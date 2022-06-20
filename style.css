@@ -1,0 +1,119 @@
+
+/* nav{
+    
+        display: flex;
+        justify-content:left;
+        font-family: 'Roboto Condensed', sans-serif;
+        border: solid 3px black;
+        list-style: none;
+        text-decoration: none;
+           
+} */
+/* .grid-container{
+
+    display: grid;
+    background-color: bisque;
+    grid-template-areas:
+    "header header header"
+    "main section aside"
+    "main section aside"
+    "footer footer footer";
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+       
+}
+
+.grid-container-productos{
+
+    display: grid;
+    background-color: bisque;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: 1fr 1fr 1fr;
+      
+}
+.grid-productos{
+    display: grid;
+    grid-area:main;
+    background-color: blue;
+} */
+
+/* 
+.img{
+    transition: height 2s, width 2s;
+} */
+
+/* .img:hover{
+    height: 400px;
+    width: 400px;  
+} */
+
+/* img.imagenbody{
+        width: 400px;
+        height: 250px;
+        align-items: center;
+} */
+.grid-item{
+    padding: 15px;
+}
+
+.grid-header{
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+.grid-main{
+    grid-area:main;
+    background-color: blue;
+}
+
+
+
+.grid-aside{
+    grid-area: aside;
+    background-color: rgb(197, 152, 152);
+
+}
+
+.grid-section{
+    grid-area:section;
+    background-color: coral;
+}
+
+
+
+@media (max-width: 480px){
+    .grid-container{
+
+        display: grid;
+        background-color: bisque;
+        grid-template-areas:
+        "header header"
+        "main section"
+        "aside aside"
+        "footer footer";
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 170vh;
+           
+    }
+
+    .grid-header{
+        justify-content: space-around;
+    }
+
+    .grid-container-productos{
+
+        display: grid;
+        background-color: bisque;
+        grid-template-areas:
+        "header header"
+        "main main"
+        "main main"
+        "footer footer";
+        grid-template-rows: 1fr 1fr 1fr;
+          
+    }
+}
